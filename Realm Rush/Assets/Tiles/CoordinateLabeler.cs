@@ -8,8 +8,8 @@ using System;
 [RequireComponent(typeof(TextMeshPro))]
 public class CoordinateLabeler : MonoBehaviour
 {
-    [SerializeField] Color defaultColor = Color.white;
-    [SerializeField] Color blockedColor = Color.red;
+    [SerializeField] Color defaultColor = Color.red;
+    [SerializeField] Color blockedColor = Color.gray;
     [SerializeField] Color exploredColor = Color.yellow;
     [SerializeField] Color pathColor = new Color(1f, 0.5f, 0f); // Orange
 
